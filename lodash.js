@@ -2,7 +2,8 @@
 // const {map, filter} = require('lodash');
 
 //importing the entire library
-/*
+/* if you want to import entire lodash library declare the variable name as '_' underscore.
+1st example
 const _ = require('lodash');
 //map to transform array elements
 const numbers = [1, 2, 3, 4, 5];
@@ -14,6 +15,7 @@ console.log(doubledNumbers); // Output: [2, 4, 6, 8, 10]
 */
 
 /*
+2nd example
 const _ = require('lodash');
 
 const students = [
@@ -28,6 +30,7 @@ const groupedStudents = _.groupBy(students, 'age');
 console.log(groupedStudents);
 
 */
+/* 3rd example
 const _ = require('lodash');
 
 // Function to be debounced
@@ -42,3 +45,4 @@ const debouncedSave = _.debounce(saveChanges, 4000); // Call saveChanges at most
 for (let i = 0; i < 5; i++) {
     debouncedSave();
 }
+*/

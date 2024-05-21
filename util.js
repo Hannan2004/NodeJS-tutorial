@@ -7,6 +7,9 @@ const age = 30;
 const formattedString = util.format('Name: %s, Age: %d', name, age);
 console.log(formattedString);
 */
+/* the below code snippet is used to convert callback based function to promise based function
+this allow us to use asynchronous operation with modern async/await syntax instead of traditional callback patterns
+
 const util = require('util');
 const fs = require('fs');
 
